@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "es2015",
+        "lib": [
+            "es7",
+            "es2017",
+            "scripthost", 
+            "dom", 
+            "dom.iterable"
+        ],
+        "allowJs": true,
+        "jsx": "preserve",
+        "noEmit": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "allowSyntheticDefaultImports": true,
+        "noFallthroughCasesInSwitch": false,
+        "experimentalDecorators": true,      
+        "baseUrl": ".",     
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "types": [
+            "./.vscode/typings/meteor",
+            "./.vscode/typings/vue",
+            "./.vscode/typings/vue-shim",
+            "@types/node"
+        ],
+        "typeRoots": [
+            "./.vscode/typings/meteor"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
